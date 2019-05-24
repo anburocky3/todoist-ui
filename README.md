@@ -1,13 +1,17 @@
+<p align="center">
 ![Todoist Logo](/screenshots/todoist-logo.png?raw=true "Todoist Logo")
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/anburocky3/todoist-ui/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/anburocky3/todoist-ui)
 [![Github license](https://img.shields.io/github/license/anburocky3/todoist-ui.svg)](https://github.com/anburocky3/todoist-ui/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/anburocky3/todoist-ui.svg)](https://GitHub.com/anburocky3/todoist-ui/graphs/contributors/)
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![GitHub followers](https://img.shields.io/github/followers/anburocky3.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/anburocky3?tab=followers)
+[![Open Source Love svg](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Chat on Telegram](https://img.shields.io/badge/Chat on Telegram-informational.svg?logo=telegram)](https://t.me/anbuselvanrocky)
+[![GitHub followers](https://img.shields.io/github/followers/anburocky3.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/anburocky3?tab=followers) </p>
 
 ## Todoist-todo app [Frontend UI | [Made on Vue.js](www.vuejs.org)]
+
 Todoist is an todo app that runs on web. It has the following features
+
 1. Landing page
 2. About page
 3. Login & Registration page
@@ -15,21 +19,26 @@ Todoist is an todo app that runs on web. It has the following features
 5. Filter-wise like all, active & completed
 6. Clear completed task featuremade in freetime.
 
-### Backend Service | [Made on Laravel](www.laravel.com) 
-This project repo contains frontend codes coded on Vue.js technology. If you are looking for server side code, check out this [Todoist-Server](https://github.com/anburocky3/todoist-server) repo. It was coded on Laravel & follows all restful API & security practices. 
+### Backend Service | [Made on Laravel](www.laravel.com)
+
+This project repo contains frontend codes coded on Vue.js technology. If you are looking for server side code, check out this [Todoist-Server](https://github.com/anburocky3/todoist-server) repo. It was coded on Laravel & follows all restful API & security practices.
 
 ### Screenshots
+
 ##### Landing page made with [Bootstrap Framework](www.getbootstrap.com)
+
 ![Homepage](/screenshots/1.png?raw=true "Homepage")
 
 ##### Login Page
+
 ![Loginpage](/screenshots/2.png?raw=true "Login Page")
 
 ##### Todo screen
+
 ![Todoapp](/screenshots/3.png?raw=true "Todoapp")
 
-
 ### Features
+
 1. Using Restful & GraphQL approach.
 2. Access based secured authentication.
 3. Dedicated Single Page Application(SPAs) & (PWAs)
@@ -38,6 +47,7 @@ This project repo contains frontend codes coded on Vue.js technology. If you are
 6. Internalization (Translation)
 
 ### This app will have the following features:
+
 1. Landing page
 2. About page
 3. Login & Registration page
@@ -46,41 +56,45 @@ This project repo contains frontend codes coded on Vue.js technology. If you are
 6. Clear completed task feature
 7. Improving it for the better repo.
 
-
-
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Run your tests
+
 ```
 npm run test
 ```
 
 ### Lints and fixes files
+
 ```
 npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Changelogs
 
-* 24-05-2019 - **INITIATE** - Project initiated
-* 25-05-2019 - **Improved** - Properly structured
-
+- 24-05-2019 - **INITIATE** - Project initiated
+- 25-05-2019 - **Improved** - Properly structured
 
 ### credits
+
 **Developer:** [Anbuselvan Rocky](https://fb.me/anburocky3)
