@@ -2,9 +2,9 @@
 Vueist is an todo app made in freetime.
 
 #Screenshots
-![Homepage](/screenshot/1.png?raw=true "Homepage")
-![Loginpage](/screenshot/2.png?raw=true "Login Page")
-![Todoapp](/screenshot/3.png?raw=true "Todoapp")
+![Homepage](/screenshots/1.png?raw=true "Homepage")
+![Loginpage](/screenshots/2.png?raw=true "Login Page")
+![Todoapp](/screenshots/3.png?raw=true "Todoapp")
 
 
 #Features
