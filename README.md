@@ -1,5 +1,10 @@
 ## Todoist-todo app [Frontend UI | [Made on Vue.js](www.vuejs.org)]
-Todoist is an todo app that has features like 
+Todoist is an todo app that runs on web.
+
+![Todoist Logo](/screenshots/todoist-logo.png?raw=true "Todoist Logo")
+
+
+Todoist has the following features
 1. Landing page
 2. About page
 3. Login & Registration page
