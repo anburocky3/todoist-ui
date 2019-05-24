@@ -1,4 +1,4 @@
-# Todoist-todo app [Frontend UI | [Made on Vue.js](www.vuejs.org)]
+## Todoist-todo app [Frontend UI | [Made on Vue.js](www.vuejs.org)]
 Todoist is an todo app that has features like 
 1. Landing page
 2. About page
@@ -6,6 +6,9 @@ Todoist is an todo app that has features like
 4. Full Todo page with server authentication
 5. Filter-wise like all, active & completed
 6. Clear completed task featuremade in freetime.
+
+### Backend Service | [Made on Laravel](www.laravel.com) 
+This project repo contains frontend codes coded on Vue.js technology. If you are looking for server side code, check out this [Todoist-Server](https://github.com/anburocky3/todoist-server) repo. It was coded on Laravel & follows all restful API & security practices. 
 
 ### Screenshots
 ##### Landing page made with [Bootstrap Framework](www.getbootstrap.com)
