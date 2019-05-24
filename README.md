@@ -2,12 +2,9 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/anburocky3/todoist-ui/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/anburocky3/todoist-ui)
 [![GitHub license](https://img.shields.io/github/license/anburocky3/todoist-ui.svg)](https://github.com/anburocky3/todoist-ui/blob/master/LICENSE)
-[![GitHub forks](https://img.shields.io/github/forks/anburocky3/todoist-ui.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/anburocky3/todoist-ui/network/)
-[![GitHub stars](https://img.shields.io/github/stars/anburocky3/todoist-ui.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/anburocky3/todoist-ui/stargazers/)
-[![GitHub watchers](https://img.shields.io/github/watchers/anburocky3/todoist-ui.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/anburocky3/todoist-ui/watchers/)
-[![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Naereen?tab=followers)
 [![GitHub contributors](https://img.shields.io/github/contributors/anburocky3/todoist-ui.svg)](https://GitHub.com/anburocky3/todoist-ui/graphs/contributors/)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![GitHub followers](https://img.shields.io/github/followers/anburocky3.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/anburocky3?tab=followers)
 
 
 ## Todoist-todo app [Frontend UI | [Made on Vue.js](www.vuejs.org)]
