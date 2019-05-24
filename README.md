@@ -1,7 +1,6 @@
 ![Todoist Logo](/screenshots/todoist-logo.png?raw=true "Todoist Logo")
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/anburocky3/todoist-ui/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/anburocky3/todoist-ui)
-<!-- [![GitHub license](https://img.shields.io/github/license/anburocky3/todoist-ui.svg)](https://github.com/anburocky3/todoist-ui/blob/master/LICENSE) -->
 [![Github license](https://img.shields.io/github/license/anburocky3/todoist-ui.svg)](https://github.com/anburocky3/todoist-ui/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/anburocky3/todoist-ui.svg)](https://GitHub.com/anburocky3/todoist-ui/graphs/contributors/)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
