@@ -2,6 +2,9 @@
 
 <a href="https://github.com/anburocky3/todoist-ui/" title="Todoist Logo"> <img src="./screenshots/todoist-logo.png?raw=true" alt="Todoist Logo" /></a>
 
+ </p>
+
+<p align="center">
 <a href="https://github.com/anburocky3/todoist-ui/graphs/commit-activity" title=""> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance" /></a>
 
 <a href="https://github.com/anburocky3/todoist-ui" title="Ask Me Anything"> <img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="Ask Me Anything" /></a>
@@ -16,6 +19,8 @@
 
 <a href="https://github.com/anburocky3?tab=followers" title="GitHub followers"> <img src="https://img.shields.io/github/followers/anburocky3.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers" /></a>
 
+ </p>
+
 <!-- ![Todoist Logo](/screenshots/todoist-logo.png?raw=true "Todoist Logo") -->
 
 <!-- [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/anburocky3/todoist-ui/graphs/commit-activity) -->
@@ -25,7 +30,6 @@
 <!-- [![Open Source Love svg](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) -->
 <!-- [![Chat on Telegram](https://img.shields.io/badge/Chat on Telegram-informational.svg?logo=telegram)](https://t.me/anbuselvanrocky) -->
 <!-- [![GitHub followers](https://img.shields.io/github/followers/anburocky3.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/anburocky3?tab=followers) -->
- </p>
 
 ## Todoist-todo app [Frontend UI | [Made on Vue.js](www.vuejs.org)]
 
