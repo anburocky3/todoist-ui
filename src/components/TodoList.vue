@@ -14,33 +14,31 @@
         </div>
       </div>
     </div>
-
     <ul class="nav nav-pills nav-fill my-3">
       <li class="nav-item">
         <a
           href="#"
           class="nav-link"
-          :class="{ 'active': this.$store.state.filter == 'all'}"
-          @click="$store.state.filter = 'all'"
+          :class="{ 'active': this.$store.state.todo.filter == 'all'}"
+          @click="$store.state.todo.filter = 'all'"
         >
           All
-          <!-- <div class="float-right"><span class="badge badge-pill badge-light">4</span> </div> -->
         </a>
       </li>
       <li class="nav-item">
         <a
           href="#"
           class="nav-link"
-          :class="{ 'active': this.$store.state.filter == 'active'}"
-          @click="$store.state.filter = 'active'"
+          :class="{ 'active': this.$store.state.todo.filter == 'active'}"
+          @click="$store.state.todo.filter = 'active'"
         >Active</a>
       </li>
       <li class="nav-item">
         <a
           href="#"
           class="nav-link"
-          :class="{ 'active': this.$store.state.filter == 'completed'}"
-          @click="$store.state.filter = 'completed'"
+          :class="{ 'active': this.$store.state.todo.filter == 'completed'}"
+          @click="$store.state.todo.filter = 'completed'"
         >Completed</a>
       </li>
     </ul>
@@ -85,39 +83,6 @@
             <small class="text-muted pl-2">{{ remaining }} Items remaining</small>
           </div>
         </li>
-        <!-- <li class="list-group-item">
-        <div class="btn-toolbar float-left" role="toolbar" aria-label="Toolbar with button groups">
-          <div class="btn-group btn-group-sm mr-2" role="group" aria-label="First group">
-            <button
-              type="button"
-              class="btn"
-              :class="{ 'btn-success': this.$store.state.filter == 'all'}"
-              @click="$store.state.filter = 'all'"
-            >All</button>
-            <button
-              type="button"
-              class="btn"
-              :class="{ 'btn-success': this.$store.state.filter == 'active'}"
-              @click="$store.state.filter = 'active'"
-            >Active</button>
-            <button
-              type="button"
-              class="btn"
-              :class="{ 'btn btn-success': this.$store.state.filter == 'completed'}"
-              @click="$store.state.filter = 'completed'"
-            >Completed</button>
-          </div>
-        </div>
-        <div class="float-right">
-          <transition name="fade">
-            <button
-              v-if="showClearCompletedBtn"
-              @click="clearCompleted"
-              class="btn btn-sm btn-info"
-            >Clear Completed</button>
-          </transition>
-        </div>
-        </li>-->
       </ul>
     </div>
     <div v-else class="text-center m-5">
@@ -144,14 +109,14 @@ export default {
     };
   },
   created() {
-    this.$store.dispatch("retrieveTodos");
     if (!this.name && !this.email) {
       this.$store.dispatch("retrieveUser").then(response => {
         this.name = response.data.name;
         this.email = response.data.email;
       });
     }
-    
+
+    this.$store.dispatch("retrieveTodos");
   },
   methods: {
     addTodo() {

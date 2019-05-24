@@ -7,8 +7,8 @@
 
 <script>
 import Navbar from "./Navbar";
-import axios from "axios";
-import { store } from "../../store/store";
+// import axios from "axios";
+// import store from "../../store";
 
 export default {
   components: {
@@ -71,36 +71,36 @@ export default {
     //   }
     // );
 
-    axios.interceptors.response.use(undefined, function(err) {
-      return new Promise(function(resolve, reject) {
-        // console.log("Master loading");
-        // console.log(err);
-        // if (err.status === 401 && err.config && !err.config.__isRetryRequest) {
-        if (true) {
-          // if you ever get an unauthorized, logout the user
-          // store
-          //   .dispatch("AUTH_LOGOUT")
-          //   .then(() => {
-          //     this.$router.push({ name: "login" });
-          //   })
-          //   .catch(() => {
-          //     this.$router.push({ name: "login" });
-          //   });
-          // you can also redirect to /login if needed !
-          // console.log("Inside block");
-        }
-        throw err;
-        // if (err.status === 401 && err.config && !err.config.__isRetryRequest) {
-        // // if (true) {
-        //   // if you ever get an unauthorized, logout the user
-        //   this.$store.dispatch('AUTH_LOGOUT');
+    // axios.interceptors.response.use(undefined, function(err) {
+    //   return new Promise(function(resolve, reject) {
+    //     // console.log("Master loading");
+    //     // console.log(err);
+    //     // if (err.status === 401 && err.config && !err.config.__isRetryRequest) {
+    //     if (true) {
+    //       // if you ever get an unauthorized, logout the user
+    //       // store
+    //       //   .dispatch("AUTH_LOGOUT")
+    //       //   .then(() => {
+    //       //     this.$router.push({ name: "login" });
+    //       //   })
+    //       //   .catch(() => {
+    //       //     this.$router.push({ name: "login" });
+    //       //   });
+    //       // you can also redirect to /login if needed !
+    //       // console.log("Inside block");
+    //     }
+    //     throw err;
+    //     // if (err.status === 401 && err.config && !err.config.__isRetryRequest) {
+    //     // // if (true) {
+    //     //   // if you ever get an unauthorized, logout the user
+    //     //   this.$store.dispatch('AUTH_LOGOUT');
 
-        //   // you can also redirect to /login if needed !
-        // // console.log("Inside block");
-        // }
-        // throw err;
-      });
-    });
+    //     //   // you can also redirect to /login if needed !
+    //     // // console.log("Inside block");
+    //     // }
+    //     // throw err;
+    //   });
+    // });
   }
 };
 </script>

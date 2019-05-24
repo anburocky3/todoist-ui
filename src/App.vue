@@ -25,7 +25,6 @@
 
 <script>
 import TodoList from "./components/TodoList.vue";
-import Footer from "./components/layouts/Footer";
 
 export default {
   name: "app",
@@ -43,8 +42,7 @@ export default {
     };
   },
   components: {
-    TodoList,
-    Footer
+    TodoList
   }
 };
 </script>

@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import axios from "axios";
-import { store } from "../store/store";
+import { store } from "../store";
 
 export default function setup() {
   // axios.interceptors.response.use(undefined, function(err) {
