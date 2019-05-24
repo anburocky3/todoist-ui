@@ -6,7 +6,6 @@
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![GitHub followers](https://img.shields.io/github/followers/anburocky3.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/anburocky3?tab=followers)
 
-
 ## Todoist-todo app [Frontend UI | [Made on Vue.js](www.vuejs.org)]
 Todoist is an todo app that runs on web. It has the following features
 1. Landing page
