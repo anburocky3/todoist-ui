@@ -4,21 +4,21 @@
     <section v-show="downloadBtn" id="appDownload" class="app-download">
       <div class="row">
         <div class="col-md-10">
-          <h4>Download our exclusive open source app now</h4>
-          <p>Available on Android OS, iOS & electron as well!</p>
+          <h4>{{ $t("downloadBanner.title") }}</h4>
+          <p>{{ $t("downloadBanner.desc") }}</p>
         </div>
         <div class="col-md-2">
           <button class="btn btn-primary">
-            <i class="fa fa-download"></i> Download now
+            <i class="fa fa-download"></i>
+            {{ $t("downloadBanner.btnText") }}
           </button>
         </div>
       </div>
     </section>
 
     <section id="footer" class="text-center bg-dark p-2">
-      <p class="text-white" style="line-height:3">
-        Programmed & maintained by
-        <a href="https://fb.me/anburocky3">Anbuselvan Rocky</a> | Coded with Love
+      <p class="text-white" style="line-height:3" v-html="$t('footer.copyright')">
+        <!-- {{ $t("footer.copyright") }} -->
         <i class="far fa-smile-wink"></i>
       </p>
     </section>
@@ -56,5 +56,4 @@ export default {
 #footer a {
   color: #00bcd4;
 }
-
 </style>
