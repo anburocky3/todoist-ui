@@ -110,6 +110,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 - 24-05-2019 - **INITIATE** - Project initiated
 - 25-05-2019 - **Improved** - Properly structured
+- 26-05-2019 - **Added** - Travis CI Build
 
 ### credits
 
