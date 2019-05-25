@@ -3,8 +3,11 @@ import Master from "./components/layouts/Master";
 import router from "./routers";
 import store from "./store";
 import VeeValidate from 'vee-validate';
+
 // import interceptorsSetup from './helpers/interceptors'
 import axios from 'axios'
+
+import i18n from './i18n'
 
 Vue.use(VeeValidate);
 
@@ -24,5 +27,6 @@ Vue.config.productionTip = false;
 new Vue({
   store,
   router,
+  i18n,
   render: h => h(Master)
 }).$mount("#app");

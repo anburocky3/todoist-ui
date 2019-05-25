@@ -1,0 +1,37 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "todos": "Todos",
+    "login": "Login",
+    "register": "Register",
+    "languages": "Languages",
+    "logout": "Logout"
+  },
+  "site": {
+    "landingHeadTitle": "Finish your task in schedule!",
+    "landingHeadDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic voluptas culpa eos vero ut?",
+    "landingHeadBtn": "Organise my todo"
+  },
+  "features": {
+    "featureHeadTitle": "{appName} Features",
+    "featureHeadDesc": "Lorem ipsum dolor sit amet consectetur.",
+    "featureOne": "Priority-wise notes",
+    "featureOneDesc": "With smart turn",
+    "featureOneDetail": "Busy? have somthing in mind? You can tell what to add, we will do the rest. Our {appName} will automatically Personialize and show what is needed based on the priority.",
+    "featureTwo": "Reminder-wise notes",
+    "featureTwoDesc": "Reminder notes",
+    "featureTwoDetail": "Busy? have somthing in mind? You can tell what to add, we will do the rest. Our {appName} will automatically Personialize and show what is needed based on the priority.",
+    "featureThree": "Password-Protected notes",
+    "featureThreeDesc": "With smart turn",
+    "featureThreeDetail": "Busy? have somthing in mind? You can tell what to add, we will do the rest. Our {appName} will automatically Personialize and show what is needed based on the priority."
+  },
+  "downloadBanner": {
+    "title": "Download our exclusive open source app now",
+    "desc": "Available on Android OS, iOS & electron as well!",
+    "btnText": "Download now"
+  },
+  "footer": {
+    "copyright": "Programmed & maintained by <a href=\"https://fb.me/anburocky3\">Anbuselvan Rocky</a> | Coded with Love"
+  }
+}
