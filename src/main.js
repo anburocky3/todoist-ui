@@ -24,6 +24,11 @@ Vue.prototype.$appName = 'Todoist'
 
 Vue.config.productionTip = false;
 
+const locale = localStorage.getItem('locale');
+if(locale){
+  i18n.locale = locale;
+}
+
 new Vue({
   store,
   router,
