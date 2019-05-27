@@ -40,7 +40,7 @@ const actions = {
         });
     });
   },
-  AUTH_LOGOUT({ commit, getters }) {
+  AUTH_LOGOUT({ commit, getters, dispatch }) {
     if (getters.loggedIn) {
       // console.log(getters.loggedIn);
 
@@ -53,6 +53,9 @@ const actions = {
             commit("AUTH_LOGOUT");
             delete axios.defaults.headers.common["Authorization"];
 
+            dispatch("CLEAR_TODOS", null, { root: true });
+
+            // commit("CLEAR_TODOS")
             resolve(res);
             // context.commit("addTodo", response.data);
           })

@@ -18,7 +18,7 @@
           <form action="#" @submit.prevent="validateBeforeSubmit">
             <div class="form-row form-group">
               <div class="col">
-                <label for="name">Full name</label>
+                <label for="name">{{ $t("auth.fullName") }}</label>
                 <input
                   type="text"
                   name="name"
@@ -32,7 +32,7 @@
                 <small class="invalid-feedback">{{ errors.first('name') }}</small>
               </div>
               <div class="col">
-                <label for="email">Email</label>
+                <label for="email">{{ $t("auth.email") }}</label>
                 <input
                   type="email"
                   class="form-control"
@@ -49,7 +49,7 @@
             </div>
 
             <div class="form-group">
-              <label for="password">Password</label>
+              <label for="password">{{ $t("auth.password") }}</label>
               <input
                 type="password"
                 class="form-control"
@@ -65,7 +65,7 @@
               <small class="invalid-feedback">{{ errors.first('password') }}</small>
             </div>
             <div class="form-group">
-              <label for="cpassword">Confirm Password</label>
+              <label for="cpassword">{{ $t("auth.confirmPassword") }}</label>
               <input
                 v-validate="'required|confirmed:password'"
                 type="password"
@@ -83,7 +83,7 @@
                 type="submit"
                 class="btn btn-primary btn-block"
                 :disabled="errors.any()"
-              >Register</button>
+              >{{ $t("auth.registerBtn") }}</button>
             </div>
           </form>
         </div>
@@ -120,8 +120,8 @@ export default {
     greetUser() {
       let name = this.name;
       return this.name.length <= 3
-        ? "Register"
-        : "Hello " + name.charAt(0).toUpperCase() + name.slice(1);
+        ? this.$t("auth.register")
+        : this.$t("greet.hello") + name.charAt(0).toUpperCase() + name.slice(1);
     }
   },
   methods: {

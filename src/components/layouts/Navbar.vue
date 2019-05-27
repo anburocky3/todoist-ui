@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color:#2196f3">
       <div class="container">
         <router-link class="navbar-brand" to="/">{{ this.$appName }}</router-link>
         <button

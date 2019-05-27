@@ -2,7 +2,7 @@
   <div>
     <div class="col-md-4 mx-auto m-5">
       <div class="card">
-        <div class="card-header bg-theme">Login</div>
+        <div class="card-header bg-theme">{{ $t("auth.login") }}</div>
         <div class="card-body">
           <div v-if="successMessage" class="alert alert-success" role="alert">{{ successMessage }}</div>
 
@@ -13,7 +13,7 @@
 
           <form action="#" @submit.prevent="validateBeforeSubmit">
             <div class="form-group">
-              <label for="email">Email</label>
+              <label for="email">{{ $t("auth.email") }}</label>
               <input
                 type="email"
                 class="form-control"
@@ -31,10 +31,10 @@
                 v-show="!errors.first('email')"
                 id="email"
                 class="form-text text-muted"
-              >Enter your authorized email account</small>
+              >{{ $t("auth.emailTip") }}</small>
             </div>
             <div class="form-group">
-              <label for="password">Password</label>
+              <label for="password">{{ $t("auth.password") }}</label>
               <input
                 type="password"
                 class="form-control"
@@ -48,7 +48,7 @@
               <small class="invalid-feedback">{{ errors.first('password') }}</small>
             </div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-block" :disabled="errors.any()">Login</button>
+              <button type="submit" class="btn btn-primary btn-block" :disabled="errors.any()">{{ $t("auth.loginBtn") }}</button>
             </div>
           </form>
         </div>

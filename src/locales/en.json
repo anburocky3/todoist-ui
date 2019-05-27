@@ -33,5 +33,35 @@
   },
   "footer": {
     "copyright": "Programmed & maintained by <a href=\"https://fb.me/anburocky3\">Anbuselvan Rocky</a> | Coded with Love"
+  },
+  "auth": {
+    "login": "Login",
+    "email": "Email",
+    "emailTip": "Enter your authorized email account",
+    "password": "Password",
+    "loginBtn": "Login",
+    "register": "Register",
+    "fullName": "Full name",
+    "confirmPassword": "Confirm Password",
+    "registerBtn": "Register"
+  },
+  "user": {
+    "welcomeUser": "Welcome {userName}"
+  },
+  "greet": {
+    "hello": "Hello "
+  },
+  "todos": {
+    "inputPlaceholder": "Enter your Todo List",
+    "404": "Nothing here. Create one.",
+    "helpers": {
+      "checkAll": "Check All",
+      "itemRemaining": "{item} items remaining "
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "completed": "Completed"
+    }
   }
 }

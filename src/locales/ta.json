@@ -33,5 +33,35 @@
   },
   "footer": {
     "copyright": "<a href=\"https://fb.me/anburocky3\"> Anbuselvan Rocky </a> மூலம் திட்டமிடப்பட்ட & பராமரிக்கப்படுகிறது | குறியிடப்பட்ட காதல்"
+  },
+  "auth": {
+    "login": "உள்நுழை",
+    "email": "மின்னஞ்சல்",
+    "emailTip": "உங்கள் அங்கீகரிக்கப்பட்ட மின்னஞ்சல் கணக்கை உள்ளிடவும்",
+    "password": "கடவுச்சொல்",
+    "loginBtn": "உள்நுழை",
+    "register": "பதிவு",
+    "fullName": "முழு பெயர்",
+    "confirmPassword": "கடவுச்சொல்லை உறுதிப்படுத்து",
+    "registerBtn": "பதிவு"
+  },
+  "user": {
+    "welcomeUser": "வணக்கம் {userName}"
+  },
+  "greet": {
+    "hello": "வணக்கம் "
+  },
+  "todos": {
+    "inputPlaceholder": "உங்கள் டோடோ பட்டியலை உள்ளிடவும்",
+    "404": "இங்கு எதுவுமில்லை. ஒன்றை உருவாக்கவும்.",
+    "helpers": {
+      "checkAll": "அனைத்து சரிபார்க்கவும்",
+      "itemRemaining": "{item} மீதமுள்ள பொருட்கள் "
+    },
+    "filters": {
+      "all": "ஆல்",
+      "active": "செயலில்",
+      "completed": "முடிக்கப்பட்டது"
+    }
   }
 }

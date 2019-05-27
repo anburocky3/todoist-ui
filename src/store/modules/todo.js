@@ -8,7 +8,9 @@ const state = {
 
 const getters = {
   remaining(state) {
-    return state.todos.filter(todo => !todo.completed).length;
+    // if (state.todos.length < 0) {
+      return state.todos.filter(todo => !todo.completed).length;
+    // }
   },
   anyRemaining(state, getters) {
     return getters.remaining != 0;
@@ -30,13 +32,15 @@ const getters = {
 };
 
 const actions = {
-  retrieveTodos({commit, rootState}) {
+  CLEAR_TODOS({ commit }) {
+    commit("CLEAR_TODOS");
+  },
+  retrieveTodos({ commit, rootState }) {
     axios.defaults.headers.common["Authorization"] =
       "Bearer " + rootState.auth.token;
     axios
       .get("/todos")
       .then(response => {
-        // console.log("response");
         commit("retrieveTodos", response.data);
       })
       .catch(error => {
@@ -103,6 +107,9 @@ const actions = {
 };
 
 const mutations = {
+  CLEAR_TODOS(state) {
+    state.todos = [];    
+  },
   addTodo(state, todo) {
     state.todos.push({
       id: todo.id,

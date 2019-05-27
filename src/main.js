@@ -10,6 +10,7 @@ import axios from 'axios'
 import i18n from './i18n'
 
 Vue.use(VeeValidate);
+Vue.use(require('vue-moment'));
 
 // interceptorsSetup()
 // console.log(router);
@@ -19,6 +20,7 @@ const token = localStorage.getItem('access_token')
 if (token) {
   axios.defaults.headers.common['Authorization'] = token
 }
+
 
 Vue.prototype.$appName = 'Todoist'
 

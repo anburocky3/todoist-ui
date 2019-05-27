@@ -9,8 +9,8 @@
           width="80"
         >
         <div style="padding-left:120px">
-          <h3>Welcome {{ name }},</h3>
-          <p class="text-muted">Email: {{ email }}</p>
+          <h3>{{ $t("user.welcomeUser", {userName: name}) }},</h3>
+          <p class="text-muted">{{ $t("auth.email") }}: {{ email }}</p>
         </div>
       </div>
     </div>
@@ -21,9 +21,7 @@
           class="nav-link"
           :class="{ 'active': this.$store.state.todo.filter == 'all'}"
           @click="$store.state.todo.filter = 'all'"
-        >
-          All
-        </a>
+        >{{ $t("todos.filters.all") }}</a>
       </li>
       <li class="nav-item">
         <a
@@ -31,7 +29,7 @@
           class="nav-link"
           :class="{ 'active': this.$store.state.todo.filter == 'active'}"
           @click="$store.state.todo.filter = 'active'"
-        >Active</a>
+        >{{ $t("todos.filters.active") }}</a>
       </li>
       <li class="nav-item">
         <a
@@ -39,17 +37,23 @@
           class="nav-link"
           :class="{ 'active': this.$store.state.todo.filter == 'completed'}"
           @click="$store.state.todo.filter = 'completed'"
-        >Completed</a>
+        >{{ $t("todos.filters.completed") }}</a>
       </li>
     </ul>
-    <div class="form-group">
+    <div class="input-group mb-3">
       <input
         type="text"
         class="form-control"
-        placeholder="Enter your Todo List"
+        aria-describedby="enterTodo"
+        :placeholder="$t('todos.inputPlaceholder')"
         v-model="newTodo"
         @keypress.enter="addTodo"
       >
+      <div class="input-group-append">
+        <span class="input-group-text" id="enterTodo">
+          <i class="fa fa-sign-in-alt"></i> &nbsp; Enter
+        </span>
+      </div>
     </div>
     <div v-if="todosFiltered.length > 0">
       <ul class="list-group">
@@ -70,7 +74,7 @@
         <li class="list-group-item">
           <div class="float-left">
             <input type="checkbox" name="checkAll" :checked="!anyRemaining" @change="checkAllTodos">
-            <small class="text-muted">&nbsp; &nbsp;Check All</small>
+            <small class="text-muted">&nbsp; &nbsp; {{ $t("todos.helpers.checkAll") }}</small>
           </div>
           <div class="float-right">
             <transition name="fade">
@@ -80,14 +84,17 @@
                 class="btn btn-sm btn-info"
               >Clear Completed</button>
             </transition>
-            <small class="text-muted pl-2">{{ remaining }} Items remaining</small>
+            <small
+              class="text-muted pl-2"
+            >{{ $t("todos.helpers.itemRemaining", { "item": remaining}) }}</small>
           </div>
         </li>
       </ul>
     </div>
     <div v-else class="text-center m-5">
       <h3>
-        <i class="fa fa-tasks"></i> Nothing here. Create one.
+        <i class="fa fa-tasks"></i>
+        {{ $t('todos.404') }}
       </h3>
     </div>
   </div>
@@ -120,7 +127,6 @@ export default {
   },
   methods: {
     addTodo() {
-      //validate
       if (this.newTodo.trim().length == 0) {
         return;
       }
